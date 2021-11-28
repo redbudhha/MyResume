@@ -13,11 +13,7 @@ import org.slf4j.LoggerFactory;
 
 import net.devstudy.resume.service.NameService;
 
-/**
- * 
- * @author devstudy
- * @see http://devstudy.net
- */
+
 @WebServlet("/search")
 public class SearchController extends HttpServlet{
 	private static final long serialVersionUID = 2847786613235117603L;
