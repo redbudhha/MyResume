@@ -12,6 +12,8 @@ import javax.servlet.http.HttpServletResponse;
 public class ProfileController extends HttpServlet{
 	private static final long serialVersionUID = -1961434718891521031L;
 
+
+
 	@Override
 	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 		req.getRequestDispatcher("/WEB-INF/JSP/profile.jsp").forward(req, resp);;
