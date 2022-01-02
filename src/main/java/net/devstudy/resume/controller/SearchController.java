@@ -24,6 +24,8 @@ public class SearchController extends HttpServlet{
 		LOGGER.debug("doGet search");
 		req.getRequestDispatcher("/WEB-INF/JSP/search-form.jsp").forward(req, resp);
 	}
+
+
 	
 	private boolean isValid(String name) {
 		return name != null && name.trim().length() != 0;
